@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello, this is Kubernetes demo on 18July 1021"
+    return "Python app deployment on Minikube cluster, running!"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
